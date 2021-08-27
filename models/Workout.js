@@ -40,6 +40,6 @@ exercises: [
 });
 
 
-const workout = mongoose.model("workoutmod", workoutSchema);
+const Workout = mongoose.model("Workout", workoutSchema);
 
-module.exports = workout;
+module.exports = Workout;
